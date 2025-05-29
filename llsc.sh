@@ -7,7 +7,7 @@ if [ $# -ne 1 ]; then
 fi
 
 log_file="$1"
-threshold=90  # 相当于0.9（放大100倍）
+threshold=101  # 相当于1.01（放大100倍）
 declare -A flow_map
 
 # 读取日志文件
